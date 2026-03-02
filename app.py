@@ -291,4 +291,5 @@ def theme():
 game.theme=random_theme()
 return ("",204)
 
-app.run(debug=True)
+if __name__ == "__main__":
+  app.run()
